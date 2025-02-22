@@ -103,16 +103,16 @@ def average_imdb_by_category(movies, category_name):
     return average_imdb(category_movies)
 
 
-print(is_high_score({"name": "Dark Knight", "imdb": 9.0, "category": "Adventure"}))  
+# print(is_high_score({"name": "Dark Knight", "imdb": 9.0, "category": "Adventure"}))  
 
-print("Next...")
-print(movies_above_threshold(movies)) 
+# print("Next...")
+# print(movies_above_threshold(movies)) 
 
-print("Next...")
-print(movies_by_category(movies, "Romance"))  
+# print("Next...")
+# print(movies_by_category(movies, "Romance"))  
 
-print("Next...")
-print(average_imdb(movies)) 
+# print("Next...")
+# print(average_imdb(movies)) 
 
 print("Next...")
 print(average_imdb_by_category(movies, "Romance"))  
