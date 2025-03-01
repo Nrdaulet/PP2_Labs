@@ -1,0 +1,10 @@
+import re
+
+pattern = r"^ab{2,3}$"  # 'a' followed by 2 or 3 'b's
+
+user_input = input("Enter a string: ")
+
+if re.fullmatch(pattern, user_input):
+    print("Match found!")
+else:
+    print("No match.")
