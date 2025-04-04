@@ -1,0 +1,1 @@
+add_songs_menu.add_command(label="Add Many Songs to Playlist", command=add_many_songs)
