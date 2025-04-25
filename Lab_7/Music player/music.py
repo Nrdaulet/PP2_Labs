@@ -108,10 +108,5 @@ add_songs_menu = Menu(my_menu)
 my_menu.add_cascade(label="Add Songs", menu=add_songs_menu)
 add_songs_menu.add_command(label="Add One Song to Playlist", command=add_song)
 
-root.bind("<space>", lambda event: pause(paused))  # Пробел — пауза
-root.bind("<Return>", lambda event: play())  # Enter — воспроизведение
-root.bind("<Right>", lambda event: next())  # Стрелка вправо — следующий трек
-root.bind("<Left>", lambda event: previos_song())  # Стрелка влево — предыдущий трек
-root.bind("<Escape>", lambda event: stop())  # Esc — стоп
-
+root.bind('<space>', lambda event: pause(paused))
 root.mainloop()

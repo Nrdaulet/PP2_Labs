@@ -11,5 +11,5 @@ def delete_file(file_path):
     os.remove(file_path)
     print("File deleted successfully!")
 
-file_path = r"C:\Users\TUF Gaming\OneDrive\Рабочий стол\python\Текстовый документ.txt"
+file_path = r"C:\Users\TUF Gaming\OneDrive\Рабочий стол\PP2\Текстовый документ.txt"
 delete_file(file_path)
